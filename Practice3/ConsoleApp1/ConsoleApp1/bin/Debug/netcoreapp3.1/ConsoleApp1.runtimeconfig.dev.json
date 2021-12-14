@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\redch\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\redch\\.nuget\\packages"
+    ]
+  }
+}
