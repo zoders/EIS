@@ -68,7 +68,7 @@ namespace Practice2
         public void SendMessage(MailMessage mail)
         {
             SmtpClient smtp = new SmtpClient("smtp.outlook.com", 587);
-            smtp.Credentials = new NetworkCredential(mail.From.Address, "Sanya2621181012");
+            smtp.Credentials = new NetworkCredential(mail.From.Address, "your_pswd");
             smtp.EnableSsl = true;
             smtp.Send(mail);
         }
